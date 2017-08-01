@@ -1,0 +1,58 @@
+$dark-green: #042623;
+$light-green: #367368;
+$strong-yellow: #F2AE30;
+$weak-yellow: #F6D488;
+$tablet: 590px;
+
+.gbooks {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    background-color: $dark-green;
+    text-align: center;
+    margin: 0;
+
+    header {
+        background-color: $strong-yellow;
+        color: $dark-green;
+        padding: 10px;
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+
+        }
+    }
+
+    #container {
+        padding: 10px;
+
+        .item {
+            display: inline-block;
+            width: 80%;
+            background: $light-green;
+            padding: 10px;
+            margin: 10px;
+
+            @media (min-width: $tablet) {
+                width: 290px;
+            }
+
+            .image {
+                filter: grayscale(100%);
+            }
+
+            .title {
+                color: $strong-yellow;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .description {
+                color: $weak-yellow;
+                text-align: left;
+            }
+        }
+    }
+}
