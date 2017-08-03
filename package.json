@@ -4,7 +4,7 @@
   "description": "Using google books api to display latest js books",
   "repository": "https://github.com/sanjsanj/google-books-api",
   "scripts": {
-    "test": "echo \"No tests... /sadface\" && exit 1",
+    "test": "karma start spec/config/karma.conf.js",
     "start": "webpack-dev-server --open"
   },
   "author": "",
@@ -14,6 +14,11 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^0.28.4",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.4",
     "node-sass": "^4.5.3",
     "promise-polyfill": "^6.0.2",
     "sass-loader": "^6.0.6",
