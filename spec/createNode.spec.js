@@ -1,3 +1,4 @@
+import "jsdom-global/register";
 import createNode from "../src/scripts/createNode";
 import ipsum from "./helpers/ipsum";
 

@@ -1,3 +1,4 @@
+import "jsdom-global/register";
 import append from "../src/scripts/append";
 
 describe("append function", () => {
