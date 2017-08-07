@@ -6,7 +6,7 @@ $ npm test
 $ npm start
 ```
 
-Master uses phantomjs to host the DOM for unit tests but there is a jsdom branch which shows how to use jsdom-global instead.
+[master branch](https://github.com/sanjsanj/google-books-api) uses phantomjs to host the DOM for unit tests but there is a [jsdom branch](https://github.com/sanjsanj/google-books-api/commits/jsdom) which shows how to use jsdom-global instead.
 
 webpack-dev-server compiles the bundle in to memory, to actually create the dist/bundle.js file run `$ webpack`
 
